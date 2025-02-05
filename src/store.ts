@@ -9,6 +9,7 @@ interface Game {
 export class GameManager{
     games: Game[] = [];
     private static instance: GameManager;
+    check = 0;
     private constructor(){
         this.games = [];
     }
